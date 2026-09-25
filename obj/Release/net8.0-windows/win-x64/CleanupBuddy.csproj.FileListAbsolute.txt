@@ -1,0 +1,25 @@
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\Cleanup Buddy.exe
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\Cleanup Buddy.deps.json
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\Cleanup Buddy.runtimeconfig.json
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\Cleanup Buddy.dll
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\Hardcodet.NotifyIcon.Wpf.dll
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\System.CodeDom.dll
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\System.Management.dll
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleanupBuddy.csproj.AssemblyReference.cache
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleaningOverlay.baml
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\MainWindow.baml
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\App.baml
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleaningOverlay.g.cs
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\MainWindow.g.cs
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\App.g.cs
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\Cleanup Buddy_MarkupCompile.cache
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\Cleanup Buddy.g.resources
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleanupBuddy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleanupBuddy.AssemblyInfoInputs.cache
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleanupBuddy.AssemblyInfo.cs
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleanupBuddy.csproj.CoreCompileInputs.cache
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleanupB.6C834974.Up2Date
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\Cleanup Buddy.dll
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\refint\Cleanup Buddy.dll
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\CleanupBuddy.genruntimeconfig.cache
+D:\Cleanup Buddy\CleanupBuddy\obj\Release\net8.0-windows\win-x64\ref\Cleanup Buddy.dll

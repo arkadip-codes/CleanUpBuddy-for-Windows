@@ -1,0 +1,7 @@
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\publish\Cleanup Buddy.exe
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\publish\Cleanup Buddy.deps.json
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\publish\Cleanup Buddy.runtimeconfig.json
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\publish\Hardcodet.NotifyIcon.Wpf.dll
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\publish\System.CodeDom.dll
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\publish\System.Management.dll
+D:\Cleanup Buddy\CleanupBuddy\bin\Release\net8.0-windows\win-x64\publish\Cleanup Buddy.dll

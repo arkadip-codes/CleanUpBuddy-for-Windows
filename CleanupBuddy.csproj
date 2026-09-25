@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\tray.ico</ApplicationIcon>
+    <AssemblyName>Cleanup Buddy</AssemblyName>
+    <Product>Cleanup Buddy</Product>
+    <RootNamespace>CleanupBuddy</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+    <!-- ── Publish size & performance optimisations ── -->
+    <!-- Pre-compile to native, eliminates JIT cold-start -->
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <!-- Profile-guided re-JIT for hot paths after warm-up -->
+    <TieredPGO>true</TieredPGO>
+    <!-- Strip XML doc files -->
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- Strip PDB debug symbols in Release/publish only -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
+    <PackageReference Include="System.Management" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\tray.ico" />
+    <Resource Include="Assets\icon.png" />
+    <Resource Include="Assets\titlebar-icon.png" />
+    <Resource Include="Assets\keyboard.png" />
+    <Resource Include="Assets\left-click.png" />
+    <Resource Include="Assets\contrast.png" />
+    <Resource Include="Assets\Inter-Light.ttf" />
+    <Resource Include="Assets\warning.png" />
+    <Resource Include="Assets\gear.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,42 @@
+<Application x:Class="CleanupBuddy.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:tb="http://www.hardcodet.net/taskbar"
+             ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- Inter Light font -->
+            <FontFamily x:Key="InterLight">pack://application:,,,/Assets/Inter-Light.ttf#Inter</FontFamily>
+
+            <!-- Accent colour (overwritten at runtime) -->
+            <Color x:Key="AccentColor">#FF0067C0</Color>
+            <SolidColorBrush x:Key="AccentBrush" Color="{DynamicResource AccentColor}"/>
+
+            <!-- Theme brushes (values swapped at runtime) -->
+            <SolidColorBrush x:Key="BgBrush"        Color="#FFF3F3F3"/>
+            <SolidColorBrush x:Key="CardBrush"       Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="TitleBarBrush"   Color="#FFF9F9F9"/>
+            <SolidColorBrush x:Key="BorderBrush2"    Color="#FFE8E8E8"/>
+            <SolidColorBrush x:Key="RowBgBrush"      Color="#FFFAFAFA"/>
+            <SolidColorBrush x:Key="RowHoverBrush"   Color="#FFF0F0F0"/>
+            <SolidColorBrush x:Key="TextBrush"       Color="#FF1A1A1A"/>
+            <SolidColorBrush x:Key="MutedBrush"      Color="#FF888888"/>
+            <SolidColorBrush x:Key="ToggleOffBrush"  Color="#FFD0D0D0"/>
+            <!-- Icon tint: dark grey in light mode, white in dark mode -->
+            <SolidColorBrush x:Key="IconTintBrush"   Color="#FF444444"/>
+
+            <!-- Apply Inter Light globally to all TextBlock, Button, TextBox -->
+            <Style TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="{StaticResource InterLight}"/>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="FontFamily" Value="{StaticResource InterLight}"/>
+            </Style>
+            <Style TargetType="ToggleButton">
+                <Setter Property="FontFamily" Value="{StaticResource InterLight}"/>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
